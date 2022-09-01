@@ -51,15 +51,28 @@ source .devops/bin/activate
 
 Summary and Explanation of File Directories
 
-Directories               Description
-.circleci	                Contains a config.yml file for circleci build.
-model_data	              Shows the housing prices in Boston area.
-output_files	            Showing docker and kubernetes log outputs
-app.py	                  REST endpoint in flask containing routes to fetch house prices in Boston area.
-Dockerfile	              Creates a Docker files with Docker dependencies.
-make_prediction.sh	      Make housing predictions from the REST api end point and log output.
-Makefile	                Install project dependcies and lint packages.
-requirements.txt	        Install Python dependencies for the project.
-run_docker	              Shell script to build the docker file.
-run_kuberbetes	          Shell script to run and start up docker image in kubernetes.
-upload_docker	            Shell script to upload locally and built image to docker hub.
+| ----------------------------------------------------------------------------------------------------------------- |
+| Directories -       |     Description                                                                             |
+| -------------------------------------------------------------------------------------------------------------------
+| .circleci	          |     Contains a config.yml file for circleci build.                                          |
+---------------------------------------------------------------------------------------------------------------------
+| model_data	        |     Shows the housing prices in Boston area.                                                |
+---------------------------------------------------------------------------------------------------------------------
+| output_files	      |     Showing docker and kubernetes log outputs                                               |
+---------------------------------------------------------------------------------------------------------------------
+| app.py	            |     REST endpoint in flask containing routes to fetch house prices in Boston area.          |
+---------------------------------------------------------------------------------------------------------------------
+| Dockerfile	        |     Creates a Docker files with Docker dependencies.                                        |
+---------------------------------------------------------------------------------------------------------------------
+| make_prediction.sh	|     Make housing predictions from the REST api end point and log output.                    |
+---------------------------------------------------------------------------------------------------------------------
+| Makefile	          |     Install project dependcies and lint packages.                                           |
+---------------------------------------------------------------------------------------------------------------------
+| requirements.txt	  |     Install Python dependencies for the project.                                            |
+---------------------------------------------------------------------------------------------------------------------
+| run_docker	        |     Shell script to build the docker file.                                                  |
+---------------------------------------------------------------------------------------------------------------------
+| run_kuberbetes	    |     Shell script to run and start up docker image in kubernetes.                            |
+---------------------------------------------------------------------------------------------------------------------
+| upload_docker	      |     Shell script to upload locally and built image to docker hub.                           |
+---------------------------------------------------------------------------------------------------------------------
